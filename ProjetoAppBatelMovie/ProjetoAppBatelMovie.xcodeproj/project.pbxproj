@@ -77,6 +77,9 @@
 		560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */ = {
 			isa = PBXGroup;
 			children = (
+				560C57DB2AEB623F00E85AFE /* Models */,
+				560C57DA2AEB623300E85AFE /* Views */,
+				560C57D92AEB622700E85AFE /* ViewModel */,
 				560C57D02AEB591E00E85AFE /* Controllers */,
 				560C57B22AEB507E00E85AFE /* AppDelegate.swift */,
 				560C57B42AEB507E00E85AFE /* SceneDelegate.swift */,
@@ -97,6 +100,27 @@
 				560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		560C57D92AEB622700E85AFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		560C57DA2AEB623300E85AFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		560C57DB2AEB623F00E85AFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
