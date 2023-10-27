@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DownloadsViewController.swift
 //  ProjetoAppBatelMovie
 //
 //  Created by Ricardo Massaki on 26/10/23.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DownloadsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+    }
+    
 
 }
-

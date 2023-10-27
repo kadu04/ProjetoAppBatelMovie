@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		560C57B32AEB507E00E85AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57B22AEB507E00E85AFE /* AppDelegate.swift */; };
 		560C57B52AEB507E00E85AFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57B42AEB507E00E85AFE /* SceneDelegate.swift */; };
-		560C57B72AEB507E00E85AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57B62AEB507E00E85AFE /* ViewController.swift */; };
+		560C57B72AEB507E00E85AFE /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57B62AEB507E00E85AFE /* MainTabBarViewController.swift */; };
 		560C57BC2AEB508000E85AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560C57BB2AEB508000E85AFE /* Assets.xcassets */; };
 		560C57BF2AEB508000E85AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560C57BD2AEB508000E85AFE /* LaunchScreen.storyboard */; };
 		560C57C82AEB574500E85AFE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57C72AEB574500E85AFE /* FirebaseAuth */; };
 		560C57CA2AEB574500E85AFE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57C92AEB574500E85AFE /* FirebaseFirestore */; };
 		560C57CD2AEB57DF00E85AFE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57CC2AEB57DF00E85AFE /* SDWebImage */; };
 		560C57CF2AEB57DF00E85AFE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57CE2AEB57DF00E85AFE /* SDWebImageMapKit */; };
+		560C57D22AEB59AA00E85AFE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57D12AEB59AA00E85AFE /* HomeViewController.swift */; };
+		560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57D32AEB59F100E85AFE /* SearchViewController.swift */; };
+		560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57D52AEB5A1700E85AFE /* UpcomingViewController.swift */; };
+		560C57D82AEB5A3C00E85AFE /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */; };
 		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +28,14 @@
 		560C57AF2AEB507E00E85AFE /* ProjetoAppBatelMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoAppBatelMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		560C57B22AEB507E00E85AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		560C57B42AEB507E00E85AFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		560C57B62AEB507E00E85AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		560C57B62AEB507E00E85AFE /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		560C57BB2AEB508000E85AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560C57BE2AEB508000E85AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560C57C02AEB508000E85AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560C57D12AEB59AA00E85AFE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		560C57D32AEB59F100E85AFE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		560C57D52AEB5A1700E85AFE /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +77,7 @@
 		560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */ = {
 			isa = PBXGroup;
 			children = (
-				560C57B62AEB507E00E85AFE /* ViewController.swift */,
+				560C57D02AEB591E00E85AFE /* Controllers */,
 				560C57B22AEB507E00E85AFE /* AppDelegate.swift */,
 				560C57B42AEB507E00E85AFE /* SceneDelegate.swift */,
 				560C57BB2AEB508000E85AFE /* Assets.xcassets */,
@@ -77,6 +85,18 @@
 				560C57C02AEB508000E85AFE /* Info.plist */,
 			);
 			path = ProjetoAppBatelMovie;
+			sourceTree = "<group>";
+		};
+		560C57D02AEB591E00E85AFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				560C57B62AEB507E00E85AFE /* MainTabBarViewController.swift */,
+				560C57D12AEB59AA00E85AFE /* HomeViewController.swift */,
+				560C57D32AEB59F100E85AFE /* SearchViewController.swift */,
+				560C57D52AEB5A1700E85AFE /* UpcomingViewController.swift */,
+				560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
@@ -202,9 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560C57B72AEB507E00E85AFE /* ViewController.swift in Sources */,
+				560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */,
+				560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */,
+				560C57D82AEB5A3C00E85AFE /* DownloadsViewController.swift in Sources */,
+				560C57B72AEB507E00E85AFE /* MainTabBarViewController.swift in Sources */,
 				560C57B32AEB507E00E85AFE /* AppDelegate.swift in Sources */,
 				560C57B52AEB507E00E85AFE /* SceneDelegate.swift in Sources */,
+				560C57D22AEB59AA00E85AFE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
