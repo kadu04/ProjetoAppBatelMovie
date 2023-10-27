@@ -12,9 +12,15 @@
 		560C57B72AEB507E00E85AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57B62AEB507E00E85AFE /* ViewController.swift */; };
 		560C57BC2AEB508000E85AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560C57BB2AEB508000E85AFE /* Assets.xcassets */; };
 		560C57BF2AEB508000E85AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560C57BD2AEB508000E85AFE /* LaunchScreen.storyboard */; };
+		560C57C82AEB574500E85AFE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57C72AEB574500E85AFE /* FirebaseAuth */; };
+		560C57CA2AEB574500E85AFE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57C92AEB574500E85AFE /* FirebaseFirestore */; };
+		560C57CD2AEB57DF00E85AFE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57CC2AEB57DF00E85AFE /* SDWebImage */; };
+		560C57CF2AEB57DF00E85AFE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 560C57CE2AEB57DF00E85AFE /* SDWebImageMapKit */; };
+		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375FB5B897CE0C424D15F14D /* Pods-ProjetoAppBatelMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.debug.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.debug.xcconfig"; sourceTree = "<group>"; };
 		560C57AF2AEB507E00E85AFE /* ProjetoAppBatelMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoAppBatelMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		560C57B22AEB507E00E85AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		560C57B42AEB507E00E85AFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		560C57BB2AEB508000E85AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560C57BE2AEB508000E85AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560C57C02AEB508000E85AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
+		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */,
+				560C57CF2AEB57DF00E85AFE /* SDWebImageMapKit in Frameworks */,
+				560C57C82AEB574500E85AFE /* FirebaseAuth in Frameworks */,
+				560C57CD2AEB57DF00E85AFE /* SDWebImage in Frameworks */,
+				560C57CA2AEB574500E85AFE /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */,
 				560C57B02AEB507E00E85AFE /* Products */,
+				D2D85929FD4B18431630E678 /* Pods */,
+				BB3A47B1E53D60E0BD4F8843 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,31 @@
 		560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */ = {
 			isa = PBXGroup;
 			children = (
+				560C57B62AEB507E00E85AFE /* ViewController.swift */,
 				560C57B22AEB507E00E85AFE /* AppDelegate.swift */,
 				560C57B42AEB507E00E85AFE /* SceneDelegate.swift */,
-				560C57B62AEB507E00E85AFE /* ViewController.swift */,
 				560C57BB2AEB508000E85AFE /* Assets.xcassets */,
 				560C57BD2AEB508000E85AFE /* LaunchScreen.storyboard */,
 				560C57C02AEB508000E85AFE /* Info.plist */,
 			);
 			path = ProjetoAppBatelMovie;
+			sourceTree = "<group>";
+		};
+		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D85929FD4B18431630E678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375FB5B897CE0C424D15F14D /* Pods-ProjetoAppBatelMovie.debug.xcconfig */,
+				6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 560C57C32AEB508000E85AFE /* Build configuration list for PBXNativeTarget "ProjetoAppBatelMovie" */;
 			buildPhases = (
+				5412547516C419B019DD4D32 /* [CP] Check Pods Manifest.lock */,
 				560C57AB2AEB507E00E85AFE /* Sources */,
 				560C57AC2AEB507E00E85AFE /* Frameworks */,
 				560C57AD2AEB507E00E85AFE /* Resources */,
@@ -80,6 +113,12 @@
 			dependencies = (
 			);
 			name = ProjetoAppBatelMovie;
+			packageProductDependencies = (
+				560C57C72AEB574500E85AFE /* FirebaseAuth */,
+				560C57C92AEB574500E85AFE /* FirebaseFirestore */,
+				560C57CC2AEB57DF00E85AFE /* SDWebImage */,
+				560C57CE2AEB57DF00E85AFE /* SDWebImageMapKit */,
+			);
 			productName = ProjetoAppBatelMovie;
 			productReference = 560C57AF2AEB507E00E85AFE /* ProjetoAppBatelMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +147,10 @@
 				Base,
 			);
 			mainGroup = 560C57A62AEB507E00E85AFE;
+			packageReferences = (
+				560C57C62AEB574500E85AFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 560C57B02AEB507E00E85AFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +171,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5412547516C419B019DD4D32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjetoAppBatelMovie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		560C57AB2AEB507E00E85AFE /* Sources */ = {
@@ -270,6 +338,7 @@
 		};
 		560C57C42AEB508000E85AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375FB5B897CE0C424D15F14D /* Pods-ProjetoAppBatelMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +370,7 @@
 		};
 		560C57C52AEB508000E85AFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -352,6 +422,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		560C57C62AEB574500E85AFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		560C57C72AEB574500E85AFE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560C57C62AEB574500E85AFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		560C57C92AEB574500E85AFE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560C57C62AEB574500E85AFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		560C57CC2AEB57DF00E85AFE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		560C57CE2AEB57DF00E85AFE /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 560C57A72AEB507E00E85AFE /* Project object */;
 }
