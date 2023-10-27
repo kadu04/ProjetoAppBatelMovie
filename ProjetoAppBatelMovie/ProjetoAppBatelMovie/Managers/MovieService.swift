@@ -37,6 +37,7 @@ class MovieService {
                 completion(.failure(APIError.failedTogetData))
             }
         }
+        
         task.resume()
     }
     

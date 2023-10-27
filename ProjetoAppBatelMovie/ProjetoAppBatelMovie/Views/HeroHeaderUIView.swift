@@ -40,14 +40,14 @@ class HeroHeaderUIView: UIView {
         imageView.image = UIImage(named: "posterFilme")
         imageView.clipsToBounds = true
         return imageView
-
+        
     }()
     
     private func addGradient() {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [
             UIColor.clear.cgColor,
-//            UIColor.systemBackground.cgColor
+            //            UIColor.systemBackground.cgColor
         ]
         gradientLayer.frame = bounds
         layer.addSublayer(gradientLayer)
@@ -60,7 +60,7 @@ class HeroHeaderUIView: UIView {
         self.addSubview(downloadButton)
         addGradient()
         configConstraints()
-
+        
     }
     
     override func layoutSubviews() {
@@ -75,8 +75,8 @@ class HeroHeaderUIView: UIView {
     private func configConstraints() {
         NSLayoutConstraint.activate([
             
-//            self.exitButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
-//            self.exitButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 30),
+            //            self.exitButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            //            self.exitButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 30),
             
             self.playButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 70),
             self.playButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -30),
@@ -88,9 +88,9 @@ class HeroHeaderUIView: UIView {
             
             
             
-        
+            
         ])
     }
-
+    
     
 }
