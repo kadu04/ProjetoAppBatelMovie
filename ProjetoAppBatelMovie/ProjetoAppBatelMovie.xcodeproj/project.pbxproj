@@ -32,8 +32,6 @@
 		565629B02AF0106800B9E06B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629AF2AF0106800B9E06B /* InitialViewController.swift */; };
 		565629B32AF018E900B9E06B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629B22AF018E900B9E06B /* LoginViewController.swift */; };
 		565629B52AF0190600B9E06B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629B42AF0190600B9E06B /* LoginScreen.swift */; };
-		565629B82AF0503500B9E06B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629B72AF0503500B9E06B /* Alert.swift */; };
-		565629BA2AF0527200B9E06B /* AlertTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629B92AF0527200B9E06B /* AlertTexts.swift */; };
 		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +60,6 @@
 		565629AF2AF0106800B9E06B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		565629B22AF018E900B9E06B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		565629B42AF0190600B9E06B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-		565629B72AF0503500B9E06B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		565629B92AF0527200B9E06B /* AlertTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTexts.swift; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,7 +83,6 @@
 		560C57A62AEB507E00E85AFE = {
 			isa = PBXGroup;
 			children = (
-				565629B62AF0501B00B9E06B /* Alert */,
 				565629B12AF018C900B9E06B /* Login */,
 				565629AC2AF0101000B9E06B /* Initial */,
 				560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */,
@@ -194,15 +189,6 @@
 				565629B22AF018E900B9E06B /* LoginViewController.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		565629B62AF0501B00B9E06B /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				565629B72AF0503500B9E06B /* Alert.swift */,
-				565629B92AF0527200B9E06B /* AlertTexts.swift */,
-			);
-			path = Alert;
 			sourceTree = "<group>";
 		};
 		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
@@ -346,8 +332,6 @@
 				560C57D22AEB59AA00E85AFE /* HomeViewController.swift in Sources */,
 				560C57E52AEC024200E85AFE /* MovieService.swift in Sources */,
 				565629B52AF0190600B9E06B /* LoginScreen.swift in Sources */,
-				565629BA2AF0527200B9E06B /* AlertTexts.swift in Sources */,
-				565629B82AF0503500B9E06B /* Alert.swift in Sources */,
 				5656299A2AEC768800B9E06B /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
