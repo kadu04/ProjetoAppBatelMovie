@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		13A5222AF1EB46855BCB2C170F059B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D3A28D2FA82B0D661D5542BFAE24D47 /* Pods-ProjetoAppBatelMovie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 050838A10846F4E7601EEF127DC6A239 /* Pods-ProjetoAppBatelMovie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5656299D2AEFEC3300B9E06B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5656299C2AEFEC3300B9E06B /* SDWebImage */; };
+		5656299F2AEFEC3300B9E06B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5656299E2AEFEC3300B9E06B /* SDWebImageMapKit */; };
 		D401F5FECD9C09D42D5A05E27229B743 /* Pods-ProjetoAppBatelMovie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 741A0C2C900B19DC61EFDD7DC0CDDB18 /* Pods-ProjetoAppBatelMovie-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +23,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		741A0C2C900B19DC61EFDD7DC0CDDB18 /* Pods-ProjetoAppBatelMovie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjetoAppBatelMovie-dummy.m"; sourceTree = "<group>"; };
 		89F55C54DA2FEEC36CB2C61B4D5419D0 /* Pods-ProjetoAppBatelMovie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjetoAppBatelMovie-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D09BFE1FDFC49C6D9AB49D3ACE95C7F5 /* Pods-ProjetoAppBatelMovie */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ProjetoAppBatelMovie"; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9B5C6A620A0C261A6838533BA3B1BA /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5656299D2AEFEC3300B9E06B /* SDWebImage in Frameworks */,
+				5656299F2AEFEC3300B9E06B /* SDWebImageMapKit in Frameworks */,
 				13A5222AF1EB46855BCB2C170F059B3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +128,10 @@
 			dependencies = (
 			);
 			name = "Pods-ProjetoAppBatelMovie";
+			packageProductDependencies = (
+				5656299C2AEFEC3300B9E06B /* SDWebImage */,
+				5656299E2AEFEC3300B9E06B /* SDWebImageMapKit */,
+			);
 			productName = Pods_ProjetoAppBatelMovie;
 			productReference = D09BFE1FDFC49C6D9AB49D3ACE95C7F5 /* Pods-ProjetoAppBatelMovie */;
 			productType = "com.apple.product-type.framework";
@@ -146,6 +154,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = F36FECE609B9C37F9D7D09D15DB57F00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -402,6 +413,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5656299C2AEFEC3300B9E06B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5656299E2AEFEC3300B9E06B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

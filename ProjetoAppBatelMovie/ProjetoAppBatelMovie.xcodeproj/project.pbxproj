@@ -26,6 +26,8 @@
 		560C57E52AEC024200E85AFE /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57E42AEC024200E85AFE /* MovieService.swift */; };
 		560C57E72AEC1A1600E85AFE /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57E62AEC1A1600E85AFE /* Title.swift */; };
 		560C57E92AEC2CEB00E85AFE /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C57E82AEC2CEB00E85AFE /* TitleCollectionViewCell.swift */; };
+		565629982AEC6F3300B9E06B /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629972AEC6F3300B9E06B /* TitleTableViewCell.swift */; };
+		5656299A2AEC768800B9E06B /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629992AEC768800B9E06B /* TitleViewModel.swift */; };
 		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		560C57E42AEC024200E85AFE /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		560C57E62AEC1A1600E85AFE /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		560C57E82AEC2CEB00E85AFE /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		565629972AEC6F3300B9E06B /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		565629992AEC768800B9E06B /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 		560C57D92AEB622700E85AFE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				565629992AEC768800B9E06B /* TitleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				560C57DE2AEB644700E85AFE /* CollectionViewTableViewCell.swift */,
 				560C57E02AEBEFB200E85AFE /* HeroHeaderUIView.swift */,
 				560C57E82AEC2CEB00E85AFE /* TitleCollectionViewCell.swift */,
+				565629972AEC6F3300B9E06B /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565629982AEC6F3300B9E06B /* TitleTableViewCell.swift in Sources */,
 				560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */,
 				560C57E92AEC2CEB00E85AFE /* TitleCollectionViewCell.swift in Sources */,
 				560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */,
@@ -293,6 +300,7 @@
 				560C57B52AEB507E00E85AFE /* SceneDelegate.swift in Sources */,
 				560C57D22AEB59AA00E85AFE /* HomeViewController.swift in Sources */,
 				560C57E52AEC024200E85AFE /* MovieService.swift in Sources */,
+				5656299A2AEC768800B9E06B /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
