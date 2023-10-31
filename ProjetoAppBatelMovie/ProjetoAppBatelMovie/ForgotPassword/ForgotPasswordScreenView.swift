@@ -99,12 +99,13 @@ class ForgotPasswordScreenView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.addSubview(backButton)
         self.addSubview(backgroundImageView)
+        self.addSubview(backButton)
         self.addSubview(logoAppImageView)
         self.addSubview(emailLabel)
         self.addSubview(emailTextField)
         self.addSubview(sendEmailButton)
+        configConstraints()
     }
     
     required init?(coder: NSCoder) {
@@ -117,7 +118,7 @@ class ForgotPasswordScreenView: UIView {
             self.backgroundImageView.topAnchor.constraint(equalTo: self.topAnchor),
             self.backgroundImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.backgroundImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            self.backgroundImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            self.backgroundImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
             
             self.backButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: -15),
             self.backButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),

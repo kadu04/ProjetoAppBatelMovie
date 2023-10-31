@@ -11,6 +11,9 @@
 		4D3A28D2FA82B0D661D5542BFAE24D47 /* Pods-ProjetoAppBatelMovie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 050838A10846F4E7601EEF127DC6A239 /* Pods-ProjetoAppBatelMovie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5656299D2AEFEC3300B9E06B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5656299C2AEFEC3300B9E06B /* SDWebImage */; };
 		5656299F2AEFEC3300B9E06B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5656299E2AEFEC3300B9E06B /* SDWebImageMapKit */; };
+		56C98AC92AF19C180043245F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 56C98AC82AF19C180043245F /* FirebaseAuth */; };
+		56C98ACB2AF19C180043245F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 56C98ACA2AF19C180043245F /* FirebaseFirestore */; };
+		56C98ACD2AF19C180043245F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 56C98ACC2AF19C180043245F /* FirebaseStorage */; };
 		D401F5FECD9C09D42D5A05E27229B743 /* Pods-ProjetoAppBatelMovie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 741A0C2C900B19DC61EFDD7DC0CDDB18 /* Pods-ProjetoAppBatelMovie-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,9 @@
 				5656299D2AEFEC3300B9E06B /* SDWebImage in Frameworks */,
 				5656299F2AEFEC3300B9E06B /* SDWebImageMapKit in Frameworks */,
 				13A5222AF1EB46855BCB2C170F059B3B /* Foundation.framework in Frameworks */,
+				56C98ACB2AF19C180043245F /* FirebaseFirestore in Frameworks */,
+				56C98AC92AF19C180043245F /* FirebaseAuth in Frameworks */,
+				56C98ACD2AF19C180043245F /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +137,9 @@
 			packageProductDependencies = (
 				5656299C2AEFEC3300B9E06B /* SDWebImage */,
 				5656299E2AEFEC3300B9E06B /* SDWebImageMapKit */,
+				56C98AC82AF19C180043245F /* FirebaseAuth */,
+				56C98ACA2AF19C180043245F /* FirebaseFirestore */,
+				56C98ACC2AF19C180043245F /* FirebaseStorage */,
 			);
 			productName = Pods_ProjetoAppBatelMovie;
 			productReference = D09BFE1FDFC49C6D9AB49D3ACE95C7F5 /* Pods-ProjetoAppBatelMovie */;
@@ -156,6 +165,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			packageReferences = (
 				5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				56C98AC72AF19C180043245F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = F36FECE609B9C37F9D7D09D15DB57F00 /* Products */;
 			projectDirPath = "";
@@ -423,6 +433,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		56C98AC72AF19C180043245F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -435,6 +453,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5656299B2AEFEC3300B9E06B /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		56C98AC82AF19C180043245F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56C98AC72AF19C180043245F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		56C98ACA2AF19C180043245F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56C98AC72AF19C180043245F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		56C98ACC2AF19C180043245F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56C98AC72AF19C180043245F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -71,6 +71,7 @@ class InitialView: UIView {
         self.addSubview(backgroundImageView)
         self.addSubview(logoAppImageView)
         self.addSubview(startButton)
+        configConstraint()
     }
     
     required init?(coder: NSCoder) {

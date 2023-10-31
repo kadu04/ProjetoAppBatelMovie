@@ -27,7 +27,7 @@ class InitialViewController: UIViewController {
 
 extension InitialViewController: InitialScreenDelegate {
     func tappedStartButton() {
-//        let viewcontroller = LoginViewController()
-//        navigationController?.pushViewController(viewcontroller, animated: true)
+        let viewcontroller = LoginViewController()
+        navigationController?.pushViewController(viewcontroller, animated: true)
     }
 }

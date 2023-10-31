@@ -165,9 +165,10 @@ class LoginScreen: UIView {
         self.addSubview(emailTextField)
         self.addSubview(passwordTextField)
         self.addSubview(forgotPasswordButton)
-        self.addSubview(loginButton)
         self.addSubview(subLoginView)
+        self.addSubview(loginButton)
         self.addSubview(registerButton)
+        self.auth = Auth.auth()
         configConstraints()
     }
     
@@ -187,8 +188,8 @@ class LoginScreen: UIView {
             self.backButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             
             self.logoAppImageView.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: -30),
-            self.logoAppImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 350),
-            self.logoAppImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -350),
+            self.logoAppImageView.heightAnchor.constraint(equalToConstant: 350),
+            self.logoAppImageView.widthAnchor.constraint(equalToConstant: 350),
             self.logoAppImageView.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             
             self.emailTextField.topAnchor.constraint(equalTo: self.logoAppImageView.bottomAnchor, constant: 10),

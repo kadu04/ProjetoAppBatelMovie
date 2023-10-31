@@ -39,6 +39,7 @@
 		565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
+		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
 		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				560C57BB2AEB508000E85AFE /* Assets.xcassets */,
 				560C57BD2AEB508000E85AFE /* LaunchScreen.storyboard */,
 				560C57C02AEB508000E85AFE /* Info.plist */,
+				56C98AC52AF19AA50043245F /* GoogleService-Info.plist */,
 			);
 			path = ProjetoAppBatelMovie;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */,
 				560C57BF2AEB508000E85AFE /* LaunchScreen.storyboard in Resources */,
 				560C57BC2AEB508000E85AFE /* Assets.xcassets in Resources */,
 			);
