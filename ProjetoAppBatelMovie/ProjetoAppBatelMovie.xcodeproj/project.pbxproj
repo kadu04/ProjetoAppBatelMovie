@@ -35,6 +35,8 @@
 		565629BF2AF0810100B9E06B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629BE2AF0810100B9E06B /* Alert.swift */; };
 		565629C12AF0811300B9E06B /* AlertTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C02AF0811300B9E06B /* AlertTexts.swift */; };
 		565629C42AF0838900B9E06B /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C32AF0838900B9E06B /* UIViewController + Extension.swift */; };
+		565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */; };
+		565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */; };
 		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		565629BE2AF0810100B9E06B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		565629C02AF0811300B9E06B /* AlertTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTexts.swift; sourceTree = "<group>"; };
 		565629C32AF0838900B9E06B /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,6 +111,7 @@
 		560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */ = {
 			isa = PBXGroup;
 			children = (
+				565629C52AF1375D00B9E06B /* ForgotPassword */,
 				565629C22AF0837100B9E06B /* Extension */,
 				565629BD2AF080ED00B9E06B /* Alert */,
 				565629AC2AF0101000B9E06B /* Initial */,
@@ -214,6 +219,15 @@
 				565629C32AF0838900B9E06B /* UIViewController + Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		565629C52AF1375D00B9E06B /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */,
+				565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
@@ -346,6 +360,7 @@
 				560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */,
 				560C57E92AEC2CEB00E85AFE /* TitleCollectionViewCell.swift in Sources */,
 				560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */,
+				565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */,
 				560C57DF2AEB644800E85AFE /* CollectionViewTableViewCell.swift in Sources */,
 				560C57E12AEBEFB200E85AFE /* HeroHeaderUIView.swift in Sources */,
 				565629B02AF0106800B9E06B /* InitialViewController.swift in Sources */,
@@ -354,6 +369,7 @@
 				560C57E32AEC013400E85AFE /* Extensions.swift in Sources */,
 				560C57B72AEB507E00E85AFE /* MainTabBarViewController.swift in Sources */,
 				560C57B32AEB507E00E85AFE /* AppDelegate.swift in Sources */,
+				565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */,
 				560C57B52AEB507E00E85AFE /* SceneDelegate.swift in Sources */,
 				560C57D22AEB59AA00E85AFE /* HomeViewController.swift in Sources */,
 				560C57E52AEC024200E85AFE /* MovieService.swift in Sources */,

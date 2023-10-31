@@ -15,7 +15,7 @@ class Alert {
     }
     
     //    func configAlert(title: String, message: String) {
-    func configAlert(title: String, message: String, secondButton: Bool, completion: (() -> Void)? = nil) {
+    func configAlert(title: String, message: String, secondButton: Bool, completion:(() -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
         let ok = UIAlertAction(title: "Ok", style: .default)
@@ -27,7 +27,5 @@ class Alert {
         }
         alertController.addAction(ok)
         self.controller.present(alertController, animated: true, completion: nil)
-        
     }
-
 }
