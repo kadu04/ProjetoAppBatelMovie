@@ -75,8 +75,8 @@ class HeroHeaderUIView: UIView {
     private func configConstraints() {
         NSLayoutConstraint.activate([
             
-            //            self.exitButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
-            //            self.exitButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 30),
+//            self.exitButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+//            self.exitButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 30),
             
             self.playButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 70),
             self.playButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -30),

@@ -45,7 +45,13 @@ class HomeViewController: UIViewController {
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
 
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: #selector(tappedExitButton))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: #selector(tappedExitButton))
+    }
+    
+    @objc func tappedExitButton() {
+        let viewcontroller = LoginViewController()
+        self.navigationController?.popViewController(animated: true)
+
     }
     
     override func viewDidLayoutSubviews() {
