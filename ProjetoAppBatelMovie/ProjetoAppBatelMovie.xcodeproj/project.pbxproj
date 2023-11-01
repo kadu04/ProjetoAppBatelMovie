@@ -37,6 +37,7 @@
 		565629C42AF0838900B9E06B /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C32AF0838900B9E06B /* UIViewController + Extension.swift */; };
 		565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */; };
 		565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */; };
+		56686DAD2AF2F09800DBE4DC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
@@ -73,6 +74,7 @@
 		565629C32AF0838900B9E06B /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
+		56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -142,11 +144,8 @@
 		560C57D02AEB591E00E85AFE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				560C57B62AEB507E00E85AFE /* MainTabBarViewController.swift */,
-				560C57D12AEB59AA00E85AFE /* HomeViewController.swift */,
-				560C57D52AEB5A1700E85AFE /* UpcomingViewController.swift */,
-				560C57D32AEB59F100E85AFE /* SearchViewController.swift */,
-				560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */,
+				56686DAF2AF2F17700DBE4DC /* General */,
+				56686DAE2AF2F10A00DBE4DC /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -236,6 +235,26 @@
 				565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */,
 			);
 			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		56686DAE2AF2F10A00DBE4DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				560C57D12AEB59AA00E85AFE /* HomeViewController.swift */,
+				560C57D52AEB5A1700E85AFE /* UpcomingViewController.swift */,
+				560C57D32AEB59F100E85AFE /* SearchViewController.swift */,
+				560C57B62AEB507E00E85AFE /* MainTabBarViewController.swift */,
+				560C57D72AEB5A3C00E85AFE /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		56686DAF2AF2F17700DBE4DC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		56C98AC02AF14D8D0043245F /* Register */ = {
@@ -378,6 +397,7 @@
 				560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */,
 				56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */,
 				560C57E92AEC2CEB00E85AFE /* TitleCollectionViewCell.swift in Sources */,
+				56686DAD2AF2F09800DBE4DC /* SearchResultsViewController.swift in Sources */,
 				560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */,
 				565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */,
 				560C57DF2AEB644800E85AFE /* CollectionViewTableViewCell.swift in Sources */,
