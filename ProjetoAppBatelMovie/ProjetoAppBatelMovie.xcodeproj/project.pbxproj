@@ -40,6 +40,7 @@
 		56686DAD2AF2F09800DBE4DC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */; };
 		566F30732AF5539A00839612 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */; };
 		566F30752AF5758F00839612 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30742AF5758F00839612 /* TitlePreviewViewController.swift */; };
+		566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30762AF582A200839612 /* TitlePreviewViewModel.swift */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
@@ -79,6 +80,7 @@
 		56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		566F30742AF5758F00839612 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		566F30762AF582A200839612 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				565629992AEC768800B9E06B /* TitleViewModel.swift */,
+				566F30762AF582A200839612 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				560C57E72AEC1A1600E85AFE /* Title.swift in Sources */,
 				560C57D82AEB5A3C00E85AFE /* DownloadsViewController.swift in Sources */,
 				560C57E32AEC013400E85AFE /* Extensions.swift in Sources */,
+				566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */,
 				560C57B72AEB507E00E85AFE /* MainTabBarViewController.swift in Sources */,
 				560C57B32AEB507E00E85AFE /* AppDelegate.swift in Sources */,
 				565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */,
