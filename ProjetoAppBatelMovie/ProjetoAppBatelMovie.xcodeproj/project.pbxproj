@@ -38,6 +38,8 @@
 		565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */; };
 		565629CB2AF13B4300B9E06B /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */; };
 		56686DAD2AF2F09800DBE4DC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */; };
+		566F30732AF5539A00839612 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */; };
+		566F30752AF5758F00839612 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30742AF5758F00839612 /* TitlePreviewViewController.swift */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
@@ -75,6 +77,8 @@
 		565629C82AF137A200B9E06B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		565629CA2AF13B4300B9E06B /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
 		56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		566F30742AF5758F00839612 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				560C57E62AEC1A1600E85AFE /* Title.swift */,
+				566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				56686DAC2AF2F09800DBE4DC /* SearchResultsViewController.swift */,
+				566F30742AF5758F00839612 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -402,7 +408,9 @@
 				565629C92AF137A200B9E06B /* ForgotPasswordViewController.swift in Sources */,
 				560C57DF2AEB644800E85AFE /* CollectionViewTableViewCell.swift in Sources */,
 				560C57E12AEBEFB200E85AFE /* HeroHeaderUIView.swift in Sources */,
+				566F30732AF5539A00839612 /* YoutubeSearchResponse.swift in Sources */,
 				565629B02AF0106800B9E06B /* InitialViewController.swift in Sources */,
+				566F30752AF5758F00839612 /* TitlePreviewViewController.swift in Sources */,
 				560C57E72AEC1A1600E85AFE /* Title.swift in Sources */,
 				560C57D82AEB5A3C00E85AFE /* DownloadsViewController.swift in Sources */,
 				560C57E32AEC013400E85AFE /* Extensions.swift in Sources */,

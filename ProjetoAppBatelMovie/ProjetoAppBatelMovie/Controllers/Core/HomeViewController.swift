@@ -31,13 +31,16 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(homeFeedTable)
         configureNavBar()
-        
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
-
+        
+//        MovieService.shared.getMovie(with: "Harry potter") { result in
+//            
+//        }
+        
     }
     
     private func configureNavBar() {
