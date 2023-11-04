@@ -41,6 +41,8 @@
 		566F30732AF5539A00839612 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */; };
 		566F30752AF5758F00839612 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30742AF5758F00839612 /* TitlePreviewViewController.swift */; };
 		566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30762AF582A200839612 /* TitlePreviewViewModel.swift */; };
+		566F309D2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566F309B2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld */; };
+		566F309F2AF6F1EF00839612 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F309E2AF6F1EF00839612 /* DataPersistenceManager.swift */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
@@ -81,6 +83,8 @@
 		566F30722AF5539A00839612 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		566F30742AF5758F00839612 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		566F30762AF582A200839612 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		566F309C2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoAppBatelMovieModel.xcdatamodel; sourceTree = "<group>"; };
+		566F309E2AF6F1EF00839612 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				560C57BD2AEB508000E85AFE /* LaunchScreen.storyboard */,
 				560C57C02AEB508000E85AFE /* Info.plist */,
 				56C98AC52AF19AA50043245F /* GoogleService-Info.plist */,
+				566F309B2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld */,
 			);
 			path = ProjetoAppBatelMovie;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				560C57E42AEC024200E85AFE /* MovieService.swift */,
+				566F309E2AF6F1EF00839612 /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -405,6 +411,7 @@
 				565629AE2AF0104600B9E06B /* InitialView.swift in Sources */,
 				560C57D62AEB5A1700E85AFE /* UpcomingViewController.swift in Sources */,
 				56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */,
+				566F309D2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld in Sources */,
 				560C57E92AEC2CEB00E85AFE /* TitleCollectionViewCell.swift in Sources */,
 				56686DAD2AF2F09800DBE4DC /* SearchResultsViewController.swift in Sources */,
 				560C57D42AEB59F100E85AFE /* SearchViewController.swift in Sources */,
@@ -415,6 +422,7 @@
 				565629B02AF0106800B9E06B /* InitialViewController.swift in Sources */,
 				566F30752AF5758F00839612 /* TitlePreviewViewController.swift in Sources */,
 				560C57E72AEC1A1600E85AFE /* Title.swift in Sources */,
+				566F309F2AF6F1EF00839612 /* DataPersistenceManager.swift in Sources */,
 				560C57D82AEB5A3C00E85AFE /* DownloadsViewController.swift in Sources */,
 				560C57E32AEC013400E85AFE /* Extensions.swift in Sources */,
 				566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */,
@@ -688,6 +696,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		566F309B2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				566F309C2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodel */,
+			);
+			currentVersion = 566F309C2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodel */;
+			path = ProjetoAppBatelMovieModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 560C57A72AEB507E00E85AFE /* Project object */;
 }
