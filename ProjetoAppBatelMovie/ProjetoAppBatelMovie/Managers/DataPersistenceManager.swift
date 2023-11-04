@@ -14,6 +14,8 @@ class DataPersistenceManager {
     
     enum DataBaseError: Error {
         case failedToSaveData
+        case failedToFetchData
+        case failedToDeleteDataData
     }
     
     static let shared = DataPersistenceManager()
@@ -44,5 +46,46 @@ class DataPersistenceManager {
         } catch {
             completion(.failure(DataBaseError.failedToSaveData) )
         }
+    }
+    
+    func fetchingTitlesFromDataBase(completion: @escaping (Result<[TitleItem], Error>) -> Void) {
+        
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let request: NSFetchRequest<TitleItem>
+        
+        request = TitleItem.fetchRequest()
+        
+        do {
+            
+            let titles = try context.fetch(request)
+            completion(.success(titles))
+            
+        } catch {
+            completion(.failure(DataBaseError.failedToFetchData))
+        }
+    }
+    
+    func deleteTitleWitch(model: TitleItem, completion: @escaping (Result<Void, Error>)-> Void) {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        //asking the database manager to delete certain object//pedindo ao gerenciador de banco de dados para excluir determinado objeto
+        context.delete(model)
+        
+        do {
+            try context.save()
+            completion(.success(()))
+        } catch {
+            completion(.failure(DataBaseError.failedToDeleteDataData))
+        }
+        
     }
 }
