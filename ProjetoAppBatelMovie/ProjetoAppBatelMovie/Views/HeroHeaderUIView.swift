@@ -94,11 +94,6 @@ class HeroHeaderUIView: UIView {
             self.downloadButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -30),
             self.downloadButton.widthAnchor.constraint(equalToConstant: 110),
             
-            
-            
-            
         ])
     }
-    
-    
 }

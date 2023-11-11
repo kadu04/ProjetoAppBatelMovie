@@ -67,13 +67,15 @@ extension LoginViewController: LoginScreenDelegate {
                 } else {
                     print("Sucesso Login!!!")
                     //                    let viewModel = MovieService()
-                    let viewcontroller = HomeViewController()
+                    let viewcontroller = MainTabBarViewController()
                     self.navigationController?.pushViewController(viewcontroller, animated: true)
                 }
             }
         })
     }
 }
+
+
 
 
 

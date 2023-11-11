@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         view.addSubview(homeFeedTable)
+        self.navigationItem.hidesBackButton = true
         configureNavBar()
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
@@ -59,13 +60,13 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavBar() {
-        var image = UIImage(named: "exitButton1")
+        var image = UIImage(named: "goback-button")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
 
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: #selector(tappedExitButton))
     }
-    
+
     @objc func tappedExitButton() {
         let viewcontroller = LoginViewController()
         self.navigationController?.popViewController(animated: true)
@@ -78,14 +79,6 @@ class HomeViewController: UIViewController {
     }
 }
 
-//extension HomeViewController: HeroHeaderDelegate {
-//
-//    @objc func tappedExitButton() {
-//        let viewcontroller = LoginViewController()
-//        self.navigationController?.popViewController(animated: true)
-//
-//    }
-//}
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
