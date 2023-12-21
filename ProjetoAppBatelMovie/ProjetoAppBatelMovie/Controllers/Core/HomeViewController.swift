@@ -60,7 +60,7 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavBar() {
-        var image = UIImage(named: "goback-button")
+        var image = UIImage(named: "")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
 
@@ -175,7 +175,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return sectionTitles[section]
     }
     
-    // scroll da navBar
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let defaultOffset = view.safeAreaInsets.top
         let offset = scrollView.contentOffset.y + defaultOffset

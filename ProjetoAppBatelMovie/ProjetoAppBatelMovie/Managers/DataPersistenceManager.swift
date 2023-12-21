@@ -70,7 +70,7 @@ class DataPersistenceManager {
         }
     }
     
-    func deleteTitleWitch(model: TitleItem, completion: @escaping (Result<Void, Error>)-> Void) {
+    func deleteTitleWitch(model: TitleItem, completion: @escaping (Result<Void, Error>) -> Void) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return
         }

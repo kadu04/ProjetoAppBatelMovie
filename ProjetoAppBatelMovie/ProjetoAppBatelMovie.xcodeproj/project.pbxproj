@@ -43,6 +43,8 @@
 		566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30762AF582A200839612 /* TitlePreviewViewModel.swift */; };
 		566F309D2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566F309B2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld */; };
 		566F309F2AF6F1EF00839612 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F309E2AF6F1EF00839612 /* DataPersistenceManager.swift */; };
+		56AA20982B1688F200687A00 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56AA20972B1688F200687A00 /* Alamofire */; };
+		56AA209B2B16A60800687A00 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 56AA209A2B16A60800687A00 /* Stripe */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
@@ -97,9 +99,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AA209B2B16A60800687A00 /* Stripe in Frameworks */,
 				77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */,
 				560C57CF2AEB57DF00E85AFE /* SDWebImageMapKit in Frameworks */,
 				560C57C82AEB574500E85AFE /* FirebaseAuth in Frameworks */,
+				56AA20982B1688F200687A00 /* Alamofire in Frameworks */,
 				560C57CD2AEB57DF00E85AFE /* SDWebImage in Frameworks */,
 				560C57CA2AEB574500E85AFE /* FirebaseFirestore in Frameworks */,
 			);
@@ -129,12 +133,12 @@
 		560C57B12AEB507E00E85AFE /* ProjetoAppBatelMovie */ = {
 			isa = PBXGroup;
 			children = (
+				565629AC2AF0101000B9E06B /* Initial */,
+				565629B12AF018C900B9E06B /* Login */,
 				56C98AC02AF14D8D0043245F /* Register */,
 				565629C52AF1375D00B9E06B /* ForgotPassword */,
 				565629C22AF0837100B9E06B /* Extension */,
 				565629BD2AF080ED00B9E06B /* Alert */,
-				565629AC2AF0101000B9E06B /* Initial */,
-				565629B12AF018C900B9E06B /* Login */,
 				560C57DD2AEB63E600E85AFE /* Managers */,
 				560C57DC2AEB632E00E85AFE /* Resources */,
 				560C57DB2AEB623F00E85AFE /* Models */,
@@ -320,6 +324,8 @@
 				560C57C92AEB574500E85AFE /* FirebaseFirestore */,
 				560C57CC2AEB57DF00E85AFE /* SDWebImage */,
 				560C57CE2AEB57DF00E85AFE /* SDWebImageMapKit */,
+				56AA20972B1688F200687A00 /* Alamofire */,
+				56AA209A2B16A60800687A00 /* Stripe */,
 			);
 			productName = ProjetoAppBatelMovie;
 			productReference = 560C57AF2AEB507E00E85AFE /* ProjetoAppBatelMovie.app */;
@@ -352,6 +358,8 @@
 			packageReferences = (
 				560C57C62AEB574500E85AFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				56AA20962B1688F200687A00 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				56AA20992B16A60800687A00 /* XCRemoteSwiftPackageReference "stripe-ios" */,
 			);
 			productRefGroup = 560C57B02AEB507E00E85AFE /* Products */;
 			projectDirPath = "";
@@ -672,6 +680,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		56AA20962B1688F200687A00 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		56AA20992B16A60800687A00 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -694,6 +718,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 560C57CB2AEB57DF00E85AFE /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		56AA20972B1688F200687A00 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56AA20962B1688F200687A00 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		56AA209A2B16A60800687A00 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56AA20992B16A60800687A00 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
 		};
 /* End XCSwiftPackageProductDependency section */
 
