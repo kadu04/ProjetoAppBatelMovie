@@ -43,13 +43,28 @@
 		566F30772AF582A200839612 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F30762AF582A200839612 /* TitlePreviewViewModel.swift */; };
 		566F309D2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566F309B2AF6ED0C00839612 /* ProjetoAppBatelMovieModel.xcdatamodeld */; };
 		566F309F2AF6F1EF00839612 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F309E2AF6F1EF00839612 /* DataPersistenceManager.swift */; };
+		568552932B82F4CA00C7DD27 /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
+		568552942B82F4CA00C7DD27 /* Pods_ProjetoAppBatelMovie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56AA20982B1688F200687A00 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56AA20972B1688F200687A00 /* Alamofire */; };
 		56AA209B2B16A60800687A00 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 56AA209A2B16A60800687A00 /* Stripe */; };
 		56C98AC22AF14DA30043245F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC12AF14DA30043245F /* RegisterScreen.swift */; };
 		56C98AC42AF18DDE0043245F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98AC32AF18DDE0043245F /* RegisterViewController.swift */; };
 		56C98AC62AF19AA50043245F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C98AC52AF19AA50043245F /* GoogleService-Info.plist */; };
-		77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		568552952B82F4CA00C7DD27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				568552942B82F4CA00C7DD27 /* Pods_ProjetoAppBatelMovie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		375FB5B897CE0C424D15F14D /* Pods-ProjetoAppBatelMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.debug.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +105,7 @@
 		56C98AC12AF14DA30043245F /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		56C98AC32AF18DDE0043245F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56C98AC52AF19AA50043245F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56D42B842B61A82500C364B7 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyLibrary; path = ../MyLibrary; sourceTree = "<group>"; };
 		6F6E4B94A499D3ECF508BE69 /* Pods-ProjetoAppBatelMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoAppBatelMovie.release.xcconfig"; path = "Target Support Files/Pods-ProjetoAppBatelMovie/Pods-ProjetoAppBatelMovie.release.xcconfig"; sourceTree = "<group>"; };
 		EFDA7B7A972351BF4288335D /* Pods_ProjetoAppBatelMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoAppBatelMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,7 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AA209B2B16A60800687A00 /* Stripe in Frameworks */,
-				77E3B60192F61920E308E3DD /* Pods_ProjetoAppBatelMovie.framework in Frameworks */,
+				568552932B82F4CA00C7DD27 /* Pods_ProjetoAppBatelMovie.framework in Frameworks */,
 				560C57CF2AEB57DF00E85AFE /* SDWebImageMapKit in Frameworks */,
 				560C57C82AEB574500E85AFE /* FirebaseAuth in Frameworks */,
 				56AA20982B1688F200687A00 /* Alamofire in Frameworks */,
@@ -119,6 +135,7 @@
 				560C57B02AEB507E00E85AFE /* Products */,
 				D2D85929FD4B18431630E678 /* Pods */,
 				BB3A47B1E53D60E0BD4F8843 /* Frameworks */,
+				56D42B832B61A82400C364B7 /* Packages */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,6 +302,14 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
+		56D42B832B61A82400C364B7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				56D42B842B61A82500C364B7 /* MyLibrary */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		BB3A47B1E53D60E0BD4F8843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +338,7 @@
 				560C57AB2AEB507E00E85AFE /* Sources */,
 				560C57AC2AEB507E00E85AFE /* Frameworks */,
 				560C57AD2AEB507E00E85AFE /* Resources */,
+				568552952B82F4CA00C7DD27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -592,6 +618,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,6 +651,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
